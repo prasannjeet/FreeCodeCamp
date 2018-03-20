@@ -1,0 +1,72 @@
+@import "https://fonts.googleapis.com/css?family=Archivo+Black";
+@import "https://fonts.googleapis.com/css?family=Roboto";
+
+body {
+    overflow-x: hidden;
+}
+
+#root-wrapper {
+    background-color: #e8e8e8;
+}
+
+.container-fluid {
+    background-color: lightgrey;
+    padding-bottom: 2em;
+}
+
+#main-container {
+    margin-top: 5em;
+    margin-bottom: 5em;
+
+}
+
+h1 {
+    padding-top: 1em;
+}
+
+h2 {
+    font-size: 25px !important;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.archivo-font {
+    font-family: Archivo Black, sans-serif;
+    color: #4a4a4a;
+}
+
+.roboto-font {
+    font-family: Roboto, sans-serif;
+}
+
+.card-caption {
+    margin-bottom: 0;
+    padding: 1em;
+}
+
+#header-image {
+    margin-bottom: 5em;
+}
+
+.left-right-padding {
+    padding: 0 2em 2em 2em;
+}
+
+.heading-caption {
+    font-size: 11px;
+    color: dimgrey;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+blockquote {
+    padding: 0 1em 0 6em;
+}
+
+#last-line {
+    padding: 0 1em 0 1em;
+}
