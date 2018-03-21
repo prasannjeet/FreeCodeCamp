@@ -9,6 +9,10 @@ body {
     background-color: #e8e8e8;
 }
 
+#footer-custom {
+    background-color: lightgrey;
+}
+
 .container-fluid {
     background-color: lightgrey;
     padding-bottom: 2em;
@@ -69,4 +73,10 @@ blockquote {
 
 #last-line {
     padding: 0 1em 0 1em;
+}
+
+.line-separator{
+    height:1px;
+    background:#717171;
+    border-bottom:1px solid #313030;
 }

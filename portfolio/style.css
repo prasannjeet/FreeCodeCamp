@@ -1,0 +1,53 @@
+body {
+     overflow-x: hidden;
+     background-color: #888888 !important;
+ }
+
+.effect1 {
+    box-shadow: 0 10px 6px -6px #3e3e3e;
+}
+
+.bg-custom {
+    background-color: #AAA !important;
+}
+
+.bg-purple {
+    background-color: #563D7C !important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.link-white ul li a,
+.link-white ul li a:visited,
+.link-white ul li a:hover,
+.link-white ul li a:active {
+    color: #a2a2a2 !important;
+}
+
+#social-links {
+    font-size: 30px;
+}
+
+ul#navButtons li a{
+    border: 3px;
+    border-color: white;
+    background-color: #8e0086;
+}
+
+#main-content {
+    padding-top: 3em;
+}
+
+body {
+    position: relative;
+}
+
+.active {
+    background-color: #b600ab !important;
+}
+
+#superFooter {
+    height: 6em;
+}

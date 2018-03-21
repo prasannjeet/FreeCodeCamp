@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../node_modules/font-awesome/css/font-awesome.css">
+</head>
+<body data-spy="scroll" data-target="#top-navbar">
+<nav id="top-navbar" class="navbar navbar-dark bg-purple navbar-expand-sm mb-2 effect1 fixed-top">
+    <a class="navbar-brand" href="#"><img src="img/pj_light.png" style="height: auto; width: 60px;"> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse pr-0" id="navbarNav">
+        <ul class="nav nav-pills navbar-nav ml-auto" id="navButtons">
+            <li class="nav-item">
+                <a class="nav-link scrollButton" id="homeButton" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link scrollButton" id="portButton" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link scrollButton" id="contactButton" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="socialButton" href="#social-links">Social</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div data-offset="0" class="row justify-content-center" id="main-content">
+    <div class="col col-xl-7 col-lg-9 col-md-10 container-fluid">
+        <!--BODY EXCLUDING HEADER AND FOOTER HERE-->
+        <div class="row">
+            <div class="col-12 jumbotron jumbotron-fluid bg-custom mb-0 effect1">
+                <h1
+                        class="display-4 text-center text-light"
+                        style="font-family: Consolas, monospace, sans-serif;"
+                        id="home">
+                    Prasannjeet Singh
+                </h1>
+                <div class="row">
+                    <div class="col col-lg-8 col-12">
+                        <p class="text-lg-right text-center text-light p-3">
+                            A Computer Science Masters Student in Linnaeus
+                            University, Sweden. Also working as a Graduate Research Assistant in association with Sigma
+                            Technologies, Vaxjo, Sweden. I am an analytical student with a deep interest in Machine
+                            Learning and Web-Development Technologies such as Node.JS, Express, Angular and MongoDB.
+                        </p>
+                        <hr class="bg-light" style="height: 0.15em;">
+                        <p class="text-lg-right text-center text-white p-3">
+                            <strong>Graduate Research Assistant | Full Stack Developer | Machine Learning</strong>
+                        </p>
+                    </div>
+                    <div class="col col-lg-4 col-12 pr-5 pt-4" style="font-size: 15px">
+                        <img style="height: auto; width: 300px;" src="img/squared2.jpg"
+                             class="rounded-circle img-thumbnail mx-auto d-block" alt="Profile Picture">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 px-0 mt-2 bg-light effect1 pb-5">
+                <div class="row justify-content-center">
+                    <h1
+                            class="display-4 mx-auto text-info mb-0 mt-5"
+                            style="font-family: Consolas, monospace, sans-serif;"
+                            id="portfolio">
+                        Portfolio
+                    </h1>
+                    <div class="col-11 pt-0">
+                        <hr class="bg-light mt-0" style="height: 0.15em;">
+                    </div>
+                    <div class="col-md-6 text-center p-2">
+                        <img src="http://via.placeholder.com/350x250">
+                    </div>
+                    <div class="col-md-6 text-center p-2">
+                        <img src="http://via.placeholder.com/350x250">
+                    </div>
+                    <div class="col-md-6 text-center p-2">
+                        <img src="http://via.placeholder.com/350x250">
+                    </div>
+                    <div class="col-md-6 text-center p-2">
+                        <img src="http://via.placeholder.com/350x250">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 px-0 mt-2 bg-light effect1">
+                <div class="row justify-content-center">
+                    <h1
+                            class="display-4 mx-auto text-info mb-0 mt-5"
+                            style="font-family: Consolas, monospace, sans-serif;"
+                            id="contact">
+                        Contact Me
+                    </h1>
+                    <div class="col-11 pt-0">
+                        <hr class="bg-light mt-0" style="height: 0.15em;">
+                    </div>
+                    <div class="col-12 col-md-6 p-5">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="number" class="form-control" id="phone" placeholder="Phone Number">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="message" placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-block btn-success">Send</button>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="col-12 col-md-6 my-auto px-5">
+                        <p>
+                            Get in touch with me for anything and everything. You will be responded as soon as possible.
+                            Hope to talk to you soon. Thank You!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--BODY EXCLUDING HEADER AND FOOTER ENDS-->
+
+    </div>
+    <div class="col-12 bg-dark mt-2 effect1">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <blockquote class="blockquote text-center mb-0 mt-3">
+                    <p class="mb-0 text-light">Stay Hungry, Stay Foolish</p>
+                    <footer class="blockquote-footer">Steve Jobs</footer>
+                </blockquote>
+            </div>
+            <div class="col-11">
+                <hr class="bg-light">
+            </div>
+            <div class="col-md-3 link-white text-center">
+                <ul>
+                    <li><a href="#" target="_blank">Link coming soon!</a></li>
+                    <li><a href="#" target="_blank">Link coming soon!</a></li>
+                    <li><a href="#" target="_blank">Link coming soon!</a></li>
+                    <li><a href="#" target="_blank">Link coming soon!</a></li>
+                    <li><a href="#" target="_blank">Link coming soon!</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 link-white text-center">
+                <ul>
+                    <li><a href="#" target="_blank">Other link coming soon!</a></li>
+                    <li><a href="#" target="_blank">Other link coming soon!</a></li>
+                    <li><a href="#" target="_blank">Other link coming soon!</a></li>
+                    <li><a href="#" target="_blank">Other link coming soon!</a></li>
+                    <li><a href="#" target="_blank">Other link coming soon!</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 link-white text-center">
+                <ul>
+                <li><a href="#" target="_blank">Link coming soon!</a></li>
+                <li><a href="#" target="_blank">Link coming soon!</a></li>
+                <li><a href="#" target="_blank">Link coming soon!</a></li>
+                <li><a href="#" target="_blank">Link coming soon!</a></li>
+                <li><a href="#" target="_blank">Link coming soon!</a></li>
+                </ul>
+            </div>
+            <div class="col-12 mb-0 pb-0">
+                <div class="row justify-content-center mb-0 pb-0">
+                    <div class="col-5 mb-0 pb-0">
+                        <hr class="bg-light mb-0 pb-0">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 text-center" id="social-links">
+                <a href="http://facebook.com/9prasannjeet" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="http://www.linkedin.com/in/prasannjeet" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/prasannjeet" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://500px.com/prasannjeet" target="_blank"><i class="fa fa-500px"></i></a>
+                <a href="https://www.quora.com/profile/Prasannjeet-Singh" target="_blank"><i class="fa fa-quora"></i></a>
+                <a href="https://www.pinterest.com/misteeque/" target="_blank"><i class="fa fa-pinterest"></i></a>
+                <a href="https://plus.google.com/u/0/+PrasannjeetSingh" target="_blank"><i class="fa fa-google-plus"></i></a>
+                <a href="http://www.twitter.com/prasannjeet" target="_blank"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 mt-2 effect1 bg-purple">
+        <div id="superFooter" class="row align-items-center">
+            <div class="col-12 text-center">
+                <p class="mb-0 text-light">Made By Prasannjeet Singh</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
