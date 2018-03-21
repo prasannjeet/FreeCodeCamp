@@ -1,7 +1,3 @@
-function scrollUp() {
-
-}
-
 $(document).ready(function () {
     $("#social-links").find("a").addClass("mx-3");
     $("ul#navButtons").find("li").find("a").addClass("p-4").addClass("mx-1");
